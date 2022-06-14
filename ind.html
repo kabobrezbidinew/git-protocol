@@ -1,0 +1,11 @@
+nstall latest gunicorn into system path
+python_pip "gunicorn"
+
+# target a virtualenv
+python_pip "gunicorn" do
+  virtualenv "/home/ubuntu/my_ve"
+  end
+  # install Django 1.1.4
+  python_pip "django" do
+    version "1.1.4"
+    end
