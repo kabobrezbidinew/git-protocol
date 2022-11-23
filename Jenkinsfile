@@ -19,5 +19,3 @@ stage('deploy') {
               sh 'echo Hello'
            }
         }
-
-
